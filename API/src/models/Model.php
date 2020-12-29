@@ -147,7 +147,7 @@
 
             $sql = $this->pdo->prepare(
 
-                "INSERT INTO contact (name,email, phone, post ) 
+                "INSERT INTO contact (name,email, phone, mensagem ) 
                             VALUES (:name,:email, :phone, :post)"
 
             );
@@ -174,7 +174,7 @@
 
             $sql = $this->pdo->prepare(
 
-                "SELECT * from feed where :id"
+                "SELECT * from feed where id = :id"
 
             );
 
