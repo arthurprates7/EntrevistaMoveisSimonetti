@@ -1,5 +1,5 @@
 <?php
-    require_once "../.vendor/autoload.php";
+    require_once __DIR__."/../vendor/autoload.php";
 
     $app = new Slim\App(
 
@@ -16,7 +16,7 @@
 
     );
     
-    require_once "./routes/routes.php";
+    require_once "routes/routes.php";
 
     $app->run();
 
