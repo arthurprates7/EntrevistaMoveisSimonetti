@@ -38,13 +38,13 @@ if($resultado['retorno'] == 'Contato salvo com Sucesso!'){
 
     echo "<script>alert('Contato Registrado com Sucesso!') </script>";
 
-    header('Refresh: 0.1; URL=http://localhost/Site/furnish-opl');
+    header('Refresh: 0.1; URL=http://localhost/Site');
 
 }else{
 
     echo "<script>alert('Houve uma Falha! Verifique todos os campos e tente novamente!') </script>";
 
-    header('Refresh: 0.1; URL=http://localhost/Site/furnish-opl');
+    header('Refresh: 0.1; URL=http://localhost/Site');
 }
 
 
