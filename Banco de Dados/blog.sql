@@ -1,31 +1,4 @@
--- phpMyAdmin SQL Dump
--- version 5.0.2
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Tempo de geração: 29-Dez-2020 às 19:14
--- Versão do servidor: 10.4.14-MariaDB
--- versão do PHP: 7.4.9
 
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-START TRANSACTION;
-SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
---
--- Banco de dados: `blog`
---
-
--- --------------------------------------------------------
-
---
--- Estrutura da tabela `contact`
---
 
 CREATE TABLE `contact` (
   `id` int(11) NOT NULL,
@@ -63,7 +36,7 @@ CREATE TABLE `feed` (
 --
 
 INSERT INTO `feed` (`id`, `title`, `content`, `author`, `date`) VALUES
-(1, 'Teste de Envio de Feed', 'Somente um teste de Envio de Feed', 'Arthur Prates', '2020-12-29 17:52:05');
+(1, 'Teste de Envio de Feed', 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.', 'Arthur Prates', '2020-12-29 17:52:05');
 
 --
 -- Índices para tabelas despejadas
@@ -98,6 +71,3 @@ ALTER TABLE `feed`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
