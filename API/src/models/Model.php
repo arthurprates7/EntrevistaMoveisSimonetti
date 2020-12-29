@@ -6,7 +6,7 @@
     class Model extends Connection{
 
 
-
+        private $id;
         private $nome;
         private $email;
         private $telefone;
@@ -82,6 +82,21 @@
         }
 
 
+        /**
+         * @return mixed
+         */
+        public function getId()
+        {
+            return $this->id;
+        }
+
+        /**
+         * @param mixed $id
+         */
+        public function setId($id)
+        {
+            $this->id = $id;
+        }
 
 
 
@@ -152,6 +167,28 @@
         }
 
 
+        public function FeedSearch(){
+
+            $id = $this->getId();
+
+
+            $sql = $this->pdo->prepare(
+
+                "SELECT * from feed where :id"
+
+            );
+
+            $sql->bindValue(":id", $id);
+
+
+            $sql->execute();
+
+            if($sql->rowCount() !== 1)
+                throw new \Exception("Erro ao procurar Feed");
+
+            return $sql->fetchAll(\PDO::FETCH_ASSOC);
+
+        }
 
 
 

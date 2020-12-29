@@ -97,6 +97,32 @@
         }
 
 
+        public function FeedSearch(Request $request, Response $response, array $args):Response{
+
+            try{
+
+                if(empty($request->getParsedBody()['id']))
+                    throw new \Exception("Id vazio");
+                if(!isset($request->getParsedBody()['id'])){
+                    throw new \Exception("Informe um Id");
+
+                }
+                else
+
+                $infos = new BlogModel();
+
+                $infos->setId($request->getParsedBody()['id']);
+
+
+                $this->content['retorno'] =  $infos->FeedSearch();
+                $this->httpStatusCode = 200;
+
+            }catch(\Exception $e){
+                $this->content['message'] = $e->getMessage();
+            }
+            return $response->withJSON($this->content)->withStatus($this->httpStatusCode);
+        }
+
 
 
     }
