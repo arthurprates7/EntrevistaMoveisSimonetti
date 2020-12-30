@@ -64,7 +64,7 @@ $ php -S localhost:8080  ./src/index.php
 
 ### Slides de Instalação
 
-- Donwload: https://drive.google.com/file/d/1OwPtbXjiCIQpKJTWtz14mGbmEPm93ygS/view?u=sharing
+- Download: https://drive.google.com/file/d/1OwPtbXjiCIQpKJTWtz14mGbmEPm93ygS/view?u=sharing
 
 
 ### 
