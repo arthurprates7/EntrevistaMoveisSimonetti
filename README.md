@@ -27,6 +27,7 @@ Este Projeto usou as seguintes Tecnologias:
 * Slim Framework - MicroFramework PHP usado para contruir API's
 * Apache - Servidor WEB
 * GitHub - Repositório do código
+* Utilizado Template HTML do site: https://onepagelove.com/furnish
 
 ### API
 
@@ -67,7 +68,7 @@ $ php -S localhost:8080  ./src/index.php
 - Download: https://drive.google.com/file/d/1OwPtbXjiCIQpKJTWtz14mGbmEPm93ygS/view?u=sharing
 
 
-### 
+
 
 ## Browsers Suportados
 

@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a457bf2-479a-4c5e-afbc-c2e885e5ddcb" name="Default Changelist" comment="" />
+    <list default="true" id="0a457bf2-479a-4c5e-afbc-c2e885e5ddcb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/furnish-opl/.idea/workspace.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +56,7 @@
       <updated>1609267388144</updated>
       <workItem from="1609267389204" duration="5943000" />
       <workItem from="1609277311895" duration="17000" />
-      <workItem from="1609337317705" duration="687000" />
+      <workItem from="1609337317705" duration="769000" />
     </task>
     <servers />
   </component>
@@ -70,5 +73,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/feed.php</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
