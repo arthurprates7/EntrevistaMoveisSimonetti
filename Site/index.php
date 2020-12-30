@@ -2,7 +2,7 @@
 
 $ch = curl_init();
 
-$url = "http://localhost/api/src/blog/feed";
+$url = "http://localhost:8080/src/blog/feed";
 
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 

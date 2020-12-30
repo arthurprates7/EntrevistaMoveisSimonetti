@@ -5,7 +5,7 @@ $id =  $_SERVER['QUERY_STRING'];
 
 
 
-$url = 'http://localhost/api/src/blog/feed/search';
+$url = 'http://localhost:8080/src/blog/feed/search';
 
 $ch = curl_init($url);
 

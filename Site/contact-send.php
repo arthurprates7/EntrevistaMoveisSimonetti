@@ -7,7 +7,7 @@ $telefone = $_POST['telefone'];
 $mensagem = $_POST['mensagem'];
 
 
-$url = 'http://localhost/api/src/blog/store/contact';
+$url = 'http://localhost:8080/src/blog/store/contact';
 
 $ch = curl_init($url);
 
