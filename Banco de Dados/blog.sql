@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 29-Dez-2020 às 22:45
+-- Tempo de geração: 30-Dez-2020 às 15:06
 -- Versão do servidor: 10.4.14-MariaDB
 -- versão do PHP: 7.4.9
 
@@ -49,9 +49,6 @@ INSERT INTO `contact` (`id`, `name`, `email`, `phone`, `mensagem`, `date`) VALUE
 (4, 'Arthur Prates', 'arthur.prates7@gmail.com', '988857665', 'Teste de Envio\r\n', '2020-12-29 20:25:55'),
 (5, 'Arthur Prates', 'arthur.prates7@gmail.com', '988857665', 'Teste de Envio via Navegador', '2020-12-29 20:26:12'),
 (6, 'Arthur Prates', 'arthur.prates7@gmail.com', '988857665', 'Teste de Envio via Navegador', '2020-12-29 20:28:01'),
-(7, 'Bianca Gonçalves', 'bibi@bibi.com', '3132131', 'TEste de Envio', '2020-12-29 20:33:09'),
-(8, 'Bianca Gonçalves', 'bibi@bibi.com', '3132131', 'TEste de Envio', '2020-12-29 20:35:47'),
-(9, 'Bianca Gonçalves', 'bibi@bibi.com', '3132131', 'TEste de Envio', '2020-12-29 20:36:59'),
 (10, 'Pedrinho', 'pedrinho@uol.com', '401872481270', 'Teste De evio', '2020-12-29 21:10:53'),
 (11, 'Agostinho Neto', 'agostinho@agostinho.com', '31087203470129', 'Teste de Envio de Mensagem via Browser com TIM', '2020-12-29 21:27:02');
 
